@@ -1,0 +1,92 @@
+
+/* 
+    Created on : Feb 3, 2018, 11:07:19 PM
+    Author     : ahmedhelal
+*/
+img{
+    width: 170px;
+    height: 280px;
+    padding: 3px;
+}
+.element
+{
+    display:table-cell;
+    text-align: center;
+    width: 300px;
+}
+.product
+{
+    display: table-cell;
+    text-align: center;
+}
+.tablecell
+{
+    display: table-cell;
+    text-align: center;
+    width: 600px;
+    height: 30%;
+    margin: 0 auto;
+    padding: 3px;
+}
+.tablerow
+{
+    display: table-row;
+    text-align: center;
+}
+.imag
+{
+    display:table-cell; 
+    vertical-align:middle; 
+    text-align:center; 
+    height:300px; 
+    width:300px;
+    border: 5px solid whitesmoke;
+}
+ul
+{
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+
+}
+
+li
+{
+
+    display: inline;
+}
+li a {
+    text-decoration: none;
+    color: white;  
+    padding: 20px;
+    font-size: 20px; 
+
+}
+a{
+    padding: 10px;
+    font-size: 16px;
+}
+
+#searchProduct{
+    width: 500px;
+    height: 30px;
+
+}
+.cart{
+    padding-left: 150px;
+    color: blue;
+}
+header
+{
+    margin: 0 auto;
+}
+
+/*for autocomplete*/
+.ui-autocomplete-loading 
+{
+    background: white url("../images/loading.png") right center no-repeat ;
+}
+/*for autocomplete*/
+.ui-draggable, .ui-droppable {
+    background-position: top;
+}
